@@ -961,7 +961,7 @@
         }
 
         // Add click handlers for interactive elements
-        document.querySelectorAll('a, input, textarea').forEach(element => {
+        document.querySelectorAll('input, textarea').forEach(element => {
             element.addEventListener('click', () => {
                 if (currentMode === 'NORMAL') {
                     enterInsertMode();
